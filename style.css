@@ -1,0 +1,229 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    text-decoration: no-underline ;
+    list-style-type: none;
+    position: fixed;
+  top:-16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between ;
+  margin-left: -8px;
+}
+.docplan {
+    width:268px;
+    height:33px;
+
+}
+.titre {
+color:#00B5AB ;
+text-align: center;
+    padding-top: 36px;
+    padding-bottom: 15px;
+
+}
+
+
+.titre{
+  padding: 50px;
+}
+
+#starlogo{
+  margin-left: 650px;
+  margin-top: 65px;
+}
+
+.nav {
+display: flex;
+    width: 800px;
+    margin-left: 200px;
+    justify-content: space-between;
+
+}
+
+
+.nav-btn{
+  display: flex;
+justify-content: space-around;
+width: 255px;
+color:#747474;
+cursor: pointer;
+}
+
+.nav-btn :first-child {
+  color:#00B5AB ;
+}
+
+
+.paragphs{
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 66px;
+  font-weight: 600;
+  color:#747474;
+  font-size: 18px;
+}
+
+.For-patients{
+  background-color: #00CCB1;
+  color: white;
+  width: 500px;
+  height: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  overflow: hidden;
+
+}
+.For-patients img, .For-doctors img{
+
+  width: 412px;
+  height: 225px;
+  margin-left: 166px;
+  margin-bottom: 26px;
+}
+
+
+
+.For-doctors {
+  background-color: #3D83DF;
+  color: white;
+  width: 500px;
+  height: 350px;
+  border-radius: 5%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.patientanddoctor{
+  display: flex;
+  justify-content: space-around;
+}
+
+#countrySelector{
+  padding : 10px ;
+  border-radius: 5%;
+  border-color: white;
+
+}
+
+.logos{
+  font-size: 17px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  width: 827px;
+  margin-top: 21px;
+
+}
+
+
+.gobalcompany h1{    width: 187px;
+  font-size: 25px;
+  font-weight: bold;
+  color :#00CCB1;
+}
+
+
+.gobalcompany {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 100px;
+}
+
+.logos span , #DotorTakvimi{
+margin-left: 10px;
+margin-right: 10px;
+color:#747474;
+
+}
+
+#DotorTakvimi{
+  position: absolute;
+    margin-top: 66px;
+    margin-left: 315px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main{
+  background: #e5faf8;
+  overflow: hidden;
+  height: 560px;
+  width: 1350px;
+  margin-top: 50px;
+  margin-bottom: 88px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  
+}
+.col-2_stats__header{
+  margin-top: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 475px;
+  height: 180px;
+}
+.section__inner{
+  width: 975px;
+  height: 560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+.col-2_stats__header h1{
+  color: #00B39B;
+  font-weight: 20px;
+}
+.col-2_stats__header p {
+  font-size: 12px;
+}
+.grid {
+  margin: 0 -10px;
+}
+.col_1{
+  height: 250px;
+  width: 225px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+}
+.col_2{
+  height: 250px;
+  width: 225px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+}
+.col_3{
+  height: 250px;
+  width: 225px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+}
+.col_4{
+  height: 250px;
+  width: 225px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: .8125em;
+}
